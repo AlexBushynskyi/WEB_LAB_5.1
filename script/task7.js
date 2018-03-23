@@ -1,8 +1,6 @@
 function convertToRoman(n) {
 	var font_ar = [1,    4,   5,  9,  10,  40, 50,  90, 100,400, 500,900,1000];
 	var font_rom = ["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"];
-	var text = n+'';
-	if (!text) return "";
 	var rezult = "";
 	var num = font_ar.length - 1;
 	while (text > 0) {
